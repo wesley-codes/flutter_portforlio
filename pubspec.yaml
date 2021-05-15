@@ -1,0 +1,82 @@
+name: web_pofolio
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  
+  font_awesome_flutter: ^9.0.0
+  url_launcher: ^6.0.3
+ 
+  carousel_pro: ^1.0.0
+  
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+ 
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    -  assets/wesley.png
+    -  assets/Screenshot_20210329-132254.jpg
+    -  assets/Screenshot_20210329-132237.jpg
+    -  assets/Screenshot_20210329-132223.jpg
+    -  assets/Screenshot_20210329-132203.jpg
+    -  assets/Screenshot_20210329-132200.jpg
+    -  assets/Screenshot_20210329-132152.jpg
+    -  assets/Screenshot_20210329-132145.jpg
+    -  assets/Screenshot_20210329-132141.jpg
+    -  assets/Screenshot_20210329-132138.jpg
+    -  assets/Screenshot_20210329-132135.jpg
+    -  assets/Screenshot_20201125_131214.jpg
+    -  assets/Screenshot_20210329-132019.jpg
+    -  assets/Screenshot_20210329-132022.jpg
+    -  assets/Screenshot_20210329-132028.jpg
+    -  assets/Screenshot_20210329-132030.jpg
+    -  assets/wesley2.png
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+ 
+  fonts:
+    - family: Fascinate
+      fonts:
+        - asset: assets/Fascinate-Regular.ttf
+        
+    - family: Exo 2
+      fonts:
+        - asset: assets/static/Exo2-Medium.ttf
+        - asset: assets/static/Exo2-Bold.ttf
+          
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
